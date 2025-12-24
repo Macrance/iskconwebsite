@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISKCON | Spiritual Wisdom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <h2>ISKCON</h2>
+            <span>Divine Wisdom • Eternal Peace</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#gurudev" class="nav-link">Gurudev</a></li>
+            <li><a href="#books" class="nav-link">Books</a></li>
+            <li><a href="#programs" class="nav-link">Programs</a></li>
+            <li><a href="#contact" class="nav-link">Connect</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+        <h1>Journey to Divine Consciousness</h1>
+        <p class="subtitle">Discover eternal peace through Krishna's timeless wisdom</p>
+        <div class="hero-buttons">
+            <button class="btn-primary" onclick="scrollToSection('about')">Begin Your Journey</button>
+            <button class="btn-outline" onclick="scrollToSection('programs')">Join Programs</button>
+        </div>
+        <div class="hero-features">
+            <div class="feature">
+                <i class="fas fa-om"></i>
+                <span>Meditation & Mantra</span>
+            </div>
+            <div class="feature">
+                <i class="fas fa-book-open"></i>
+                <span>Vedic Wisdom</span>
+            </div>
+            <div class="feature">
+                <i class="fas fa-hands-praying"></i>
+                <span>Devotional Service</span>
+            </div>
+        </div>
+    </div>
+    <div class="wave-shape"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title">Path to Enlightenment</h2>
+        <p class="section-subtitle">
+            Practical spirituality for modern seekers based on Bhagavad Gita's eternal wisdom
+        </p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Inner Peace</h3>
+                <p>Find clarity and calm in a chaotic world through meditation and spiritual practices</p>
+                <div class="feature-glow"></div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>Bhakti Yoga</h3>
+                <p>Experience divine joy through devotional service and loving relationship with Krishna</p>
+                <div class="feature-glow"></div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Sacred Community</h3>
+                <p>Join a global family of spiritual seekers walking the path of devotion together</p>
+                <div class="feature-glow"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- GURUDEV -->
+<section id="gurudev" class="gurudev">
+    <div class="container">
+        <h2 class="section-title">Our Divine Inspiration</h2>
+        <div class="gurudev-content">
+            <div class="gurudev-text">
+                <div class="gurudev-title">
+                    <h3>His Divine Grace</h3>
+                    <h2>A.C. Bhaktivedanta Swami Prabhupada</h2>
+                </div>
+                
+                <div class="quote-container">
+                    <i class="fas fa-quote-left"></i>
+                    <blockquote>
+                        "Real happiness comes from within. It is not to be found in the external, material world."
+                    </blockquote>
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                
+                <p class="gurudev-description">
+                    In 1965, at age 69, Srila Prabhupada traveled from India to America with just $8 and a trunk of sacred books. Within 12 years, he established 108 temples worldwide and translated over 70 volumes of Vedic literature, making Krishna consciousness accessible to millions.
+                </p>
+                
+                <div class="gurudev-stats">
+                    <div class="stat">
+                        <span class="stat-number">108</span>
+                        <span class="stat-label">Temples</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">70+</span>
+                        <span class="stat-label">Books</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Countries</span>
+                    </div>
+                </div>
+                
+                <div class="gurudev-buttons">
+                    <button class="btn-primary" onclick="showDiscourses()">
+                        <i class="fas fa-headphones"></i> Listen to Discourses
+                    </button>
+                    <button class="btn-outline" onclick="scrollToSection('books')">
+                        <i class="fas fa-book"></i> Read His Books
+                    </button>
+                </div>
+            </div>
+            
+            <div class="gurudev-graphic">
+                <div class="graphic-element">
+                    <div class="lotus">
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="center"></div>
+                    </div>
+                </div>
+                <p class="graphic-caption">Founder Acharya of ISKCON</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BOOKS -->
+<section id="books" class="books">
+    <div class="container">
+        <h2 class="section-title">Sacred Literature</h2>
+        <p class="section-subtitle">Transformative books for spiritual awakening</p>
+
+        <div class="books-grid">
+            <div class="book-card">
+                <div class="book-glow"></div>
+                <div class="book-icon">
+                    <i class="fas fa-scroll"></i>
+                </div>
+                <h3>Bhagavad Gita As It Is</h3>
+                <p>The eternal conversation between Lord Krishna and Arjuna - complete with purports</p>
+                <div class="book-meta">
+                    <span class="price">₹200</span>
+                    <span class="pages">700 pages</span>
+                </div>
+                <button class="btn-order" onclick="orderBook('Bhagavad Gita As It Is')">
+                    <i class="fab fa-whatsapp"></i> Order Now
+                </button>
+            </div>
+
+            <div class="book-card">
+                <div class="book-glow"></div>
+                <div class="book-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Srimad Bhagavatam</h3>
+                <p>The ripened fruit of Vedic literature - 18 volume complete set</p>
+                <div class="book-meta">
+                    <span class="price">₹4,500</span>
+                    <span class="pages">18 Volumes</span>
+                </div>
+                <button class="btn-order" onclick="orderBook('Srimad Bhagavatam')">
+                    <i class="fab fa-whatsapp"></i> Order Now
+                </button>
+            </div>
+
+            <div class="book-card">
+                <div class="book-glow"></div>
+                <div class="book-icon">
+                    <i class="fas fa-star-and-crescent"></i>
+                </div>
+                <h3>Chaitanya Charitamrita</h3>
+                <p>Biography and teachings of Sri Chaitanya Mahaprabhu</p>
+                <div class="book-meta">
+                    <span class="price">₹3,200</span>
+                    <span class="pages">9 Volumes</span>
+                </div>
+                <button class="btn-order" onclick="orderBook('Chaitanya Charitamrita')">
+                    <i class="fab fa-whatsapp"></i> Order Now
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROGRAMS -->
+<section id="programs" class="programs">
+    <div class="container">
+        <h2 class="section-title">Spiritual Programs</h2>
+        <p class="section-subtitle">Join our uplifting gatherings</p>
+
+        <div class="programs-grid">
+            <div class="program-card">
+                <div class="program-glow"></div>
+                <div class="program-header">
+                    <i class="fas fa-music"></i>
+                    <h3>Sunday Feast</h3>
+                </div>
+                <p>Ecstatic kirtan, enlightening lecture, and delicious spiritual food</p>
+                <div class="program-time">
+                    <i class="fas fa-clock"></i> Every Sunday, 4-7 PM
+                </div>
+                <div class="program-tag">Free Entry</div>
+            </div>
+
+            <div class="program-card">
+                <div class="program-glow"></div>
+                <div class="program-header">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Gita Study</h3>
+                </div>
+                <p>Weekly Bhagavad Gita study group for deeper spiritual understanding</p>
+                <div class="program-time">
+                    <i class="fas fa-clock"></i> Wednesdays, 7 PM
+                </div>
+                <div class="program-tag">Interactive</div>
+            </div>
+
+            <div class="program-card">
+                <div class="program-glow"></div>
+                <div class="program-header">
+                    <i class="fas fa-child"></i>
+                    <h3>Youth Forum</h3>
+                </div>
+                <p>Spiritual discussions and activities for young seekers</p>
+                <div class="program-time">
+                    <i class="fas fa-clock"></i> Saturdays, 5 PM
+                </div>
+                <div class="program-tag">18-30 Years</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Connect With Us</h2>
+        <p class="section-subtitle">Begin your spiritual journey today</p>
+
+        <div class="contact-content">
+            <form id="contactForm" class="contact-form">
+                <h3>Send us a Message</h3>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number">
+                <textarea placeholder="Your spiritual questions or message..." rows="4" required></textarea>
+                <button type="submit" class="btn-primary">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Temple</h3>
+                    <p>ISKCON Temple Road<br>Hare Krishna Land</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>+91 98765 43210</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>contact@iskcon.org</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>ISKCON</h2>
+                <p>International Society for Krishna Consciousness</p>
+            </div>
+            <div class="mantra">
+                <p>Hare Krishna Hare Krishna, Krishna Krishna Hare Hare</p>
+                <p>Hare Rama Hare Rama, Rama Rama Hare Hare</p>
+            </div>
+            <p class="copyright">© 2024 ISKCON. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
